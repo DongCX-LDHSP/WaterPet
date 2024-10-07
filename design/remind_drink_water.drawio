@@ -1,0 +1,163 @@
+<mxfile host="65bd71144e">
+    <diagram id="cwGnsezasowdMiNM-ndZ" name="Page-1">
+        <mxGraphModel dx="831" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 243, 230);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;达到提醒喝水间隔&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="6">
+                    <mxGeometry x="-0.28" y="3" relative="1" as="geometry">
+                        <mxPoint x="-3" y="14" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="空忙状态" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="393" y="223" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;fontSize=18;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="488" y="553" as="targetPoint"/>
+                        <mxPoint x="368" y="383" as="sourcePoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 243, 230);&quot;&gt;WATER_PET_DRINKING_WATER_DELAY_FLAG=1&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="13">
+                    <mxGeometry x="-0.1789" y="1" relative="1" as="geometry">
+                        <mxPoint x="-1" y="79" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;fontSize=18;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1588" y="243" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="865" y="383"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 243, 230);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;WATER_PET_DRINKING_WATER_DELAY_FLAG=0&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="22">
+                    <mxGeometry x="-0.0548" y="-1" relative="1" as="geometry">
+                        <mxPoint x="81" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="提醒喝水辅助判断状态" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="368" y="363" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="843" y="913" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="865" y="903"/>
+                            <mxPoint x="1433" y="903"/>
+                            <mxPoint x="1433" y="103"/>
+                            <mxPoint x="463" y="103"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;小可爱喝了水, 即通过 drink_water 功能&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;喝了水, 记录提醒标志的变量清空&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="42">
+                    <mxGeometry x="-0.7328" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-56" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="623" y="723" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="865" y="903"/>
+                            <mxPoint x="623" y="903"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 243, 230);&quot;&gt;再次达到提醒喝水间隔&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="46">
+                    <mxGeometry x="-0.4568" y="2" relative="1" as="geometry">
+                        <mxPoint x="-114" y="27" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="延迟喝水提醒状态" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="708" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;fontSize=18;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="23" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="980" y="553" as="sourcePoint"/>
+                        <mxPoint x="1200" y="603" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="&lt;span style=&quot;text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;小可爱决定晚会再喝水, 即通过&lt;/span&gt;&lt;font style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(255, 243, 230); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;drink_water_later 功能&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;延迟了喝水, 修改记录提醒标志的环境变量&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="29">
+                    <mxGeometry x="-0.1429" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="23" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1083" y="513"/>
+                            <mxPoint x="1083" y="313"/>
+                            <mxPoint x="1083" y="103"/>
+                            <mxPoint x="463" y="103"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;小可爱喝了水, 即通过 drink_water 功能&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;喝了水, 记录提醒标志的变量清空&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="44">
+                    <mxGeometry x="-0.3946" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-112" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="提醒喝水状态" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="493" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="31" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="183" y="903"/>
+                            <mxPoint x="183" y="103"/>
+                            <mxPoint x="463" y="103"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(251, 251, 251);&quot;&gt;小可爱喝了水, 即通过 drink_water 功能&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: rgb(251, 251, 251);&quot;&gt;喝了水, 记录提醒标志的变量清空&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="48">
+                    <mxGeometry x="-0.1588" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="强制喝水状态" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="378" y="883" width="170" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="23" target="23">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="865" y="573"/>
+                            <mxPoint x="633" y="573"/>
+                            <mxPoint x="633" y="513"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="间隔短暂的时间提醒一次喝水" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="50">
+                    <mxGeometry x="0.3111" y="1" relative="1" as="geometry">
+                        <mxPoint y="12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="31" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="463" y="1003"/>
+                            <mxPoint x="653" y="1003"/>
+                            <mxPoint x="653" y="903"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="&lt;span style=&quot;&quot;&gt;延迟过长, 以至于达到了下次&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;提醒喝水的间隔, 不再允许延迟喝水,&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;间隔一个短暂的时间就提醒喝一次水&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;fontColor=#000000;" vertex="1" connectable="0" parent="52">
+                    <mxGeometry x="-0.1663" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;fontSize=18;fontColor=#000000;" edge="1" parent="1" source="54" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="ellipse;fillColor=strokeColor;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="448" y="30" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
