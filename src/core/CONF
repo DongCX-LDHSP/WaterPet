@@ -1,0 +1,12 @@
+# 记录喝水次数
+export WATER_PET_DRINK_WATER_COUNT=0
+# 记录喝水量
+export WATER_PET_DRINK_WATER_MOUNT=0
+# 控制是否在所有的终端中生效
+export WATER_PET_GLOBAL_ON=0
+# 记录总的提醒次数
+export WATER_PET_TOTAL_REMIND_COUNT=0
+# 记录当前的提醒次数
+export WATER_PET_CURRENT_REMIND_COUNT=0
+# 标记当前是否处于延迟喝水的状态中
+export WATER_PET_DRINKING_WATER_DELAY_FLAG=0
